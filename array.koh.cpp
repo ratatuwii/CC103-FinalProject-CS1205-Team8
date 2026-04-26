@@ -17,6 +17,7 @@ class order{
     priority = p;
   }
   # hello po!
+cout << "akin ka na lang <<endl;
 }
 
 int main(){
