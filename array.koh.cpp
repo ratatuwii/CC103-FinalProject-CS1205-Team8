@@ -17,7 +17,13 @@ class order{
     priority = p;
   }
   # hello po!
-cout << "akin ka na lang <<endl;
+  string getName(){return name};
+  string getDetails(){return details};
+  int getPriority(){return priority};
+  
+  void display(){
+    cout <<name << "-" << details << endl;
+  };
 }
 
 int main(){
